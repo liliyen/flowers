@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+/* header / banner section styles */
+header{
+    background-image: linear-gradient(43deg, #4159d042 0%, #c850c042 46%, #ffcd7080 100%);
+    display: flex;
+    gap: 83px;
+    align-items: center;
+    padding: 0 120px;
+    margin: 0 0 130px 0;
+
+}
+
+.banner-text-container{
+}
+.banner-heading{
+    color: #272727;
+    font-size: 63px;
+    font-weight:900;
+    margin: 0 0 20px 0;
+}
+.banner-text{
+    margin: 0 0 20px 0;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    line-height: 27px;
+    
+}
+.primary-button{
+    border-radius: 8px;
+    background: #E55473;
+    padding: 18px 38px;
+    color: #FFF;
+    font-weight: 600;
+    border: 0;
+}
+.banner-photo{
+    width: 45%;
+    padding: 50px 0 0 0;
+}
+
+/* 2nd part / feature part style */
+.feature{
+    padding: 0 120px;
+    margin: 0 0 130px 0;
+}
+.section-text{
+    text-align: center;
+}
+.section-heading{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+.section-paragraph{
+    color: rgba(39, 39, 39, 0.60);
+    font-weight: 400;
+    line-height: 25px; 
+    text-align: center;
+    padding: 0 25%
+}
+.round-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    gap: 25px;
+    
+
+}
+.card{
+   
+}
+.pink-card{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+height: 400px;
+width: 350px;
+position: relative;
+}
+.paste-card{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    height: 400px;
+    width: 350px;
+    position: relative;
+}
+.light-green-card{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    height: 400px;
+    width: 350px;
+    position: relative;
+
+}
+.card-image{
+    width:60%;
+    padding: 80px 76px 0 76px;
+    height: 80%;
+    
+}
+.feature a {
+   display: inline-block;
+   margin-top: 30px;
+   color: #272727;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+/* bonus section style */
+.bonus-section{
+    background-image: url("images/bonus.png"), linear-gradient(43deg, #4159d042 0%, #c850c042 46%, #ffcd7080 100%);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+    margin: 0 0 130px 0;
+}
+.bonus-section img{
+    width:30%;
+    margin: 5% 0%;
+}
+.bonus-container{
+    padding: 8% 10% 5% 30%;
+    text-align: end;
+    padding-left: 20%;
+}
+.bonus-container-01{
+    text-align: start;
+    padding: 0% 22% 10% 10%;
+    margin-top: 3%;
+}
+.bonus-heading{
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.bonus-text{
+
+}
+
+/* icon section style */
+.icon-section{
+    border-radius: 8px;
+    background: rgba(187, 100, 204, 0.13);
+    margin: 0 120px 130px 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.icon-container{
+    padding: 90px 0;
+    text-align: center;
+}
+.icon-img{
+
+}
+.icon-text{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 18px;
+    margin-top: 24px;
+}
+
+/* hot deal section style */
+
+.deal-section{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    border-radius: 8px;
+    background-image:linear-gradient(43deg, #4159d0b0 0%, #c850c042 46%, #ffcd7080 100%);
+    padding: 100px 160px;
+    margin: 0 0 130px 0;
+
+
+}
+
+.primary-color{
+    color: #E55473;
+}
+.hot-image{
+}
+
+.sign-up{
+    margin-top: 40px;
+}
+
+/* instagram section style */
+.instagram-section{
+    margin: 0 0 130px 0;
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 120px;
+    margin-top: 50px;
+    
+}
+
+.image-container img{
+    width: 250px;
+}
+
+/* subscribe section style*/
+.subscribe-section{
+    background-image: url("images/Rectangle\ 9.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 90px 150px ;
+    margin: 0 120px 130px 120px;
+    border-radius: 8px;
+}
+.subscribe-form{
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+.subscribe-form input {
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+    height: 50px;
+    display: block;
+    width: 500px;
+    padding-left: 20px;
+    margin-left: 40px;
+    color: rgba(39, 39, 39, 0.60);
+}
+.subscribe-btn{
+    display: block;
+    margin-right: 50px;
+
+}
+.deal-heading{
+    margin-bottom: 20px;
+}
+
+/* footer style */
+footer{
+    background: #111010;
+    padding: 128px 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    
+}
+.footer-text{
+    color: #FFF;
+    
+}
+.footer-heading{
+    color: #FFF;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+.footer-paragraph{
+    color: rgba(255, 255, 255, 0.90);
+    line-height: 30px;
+    margin-bottom: 35px;
+}
+.footer-rights{
+    color: rgba(255, 255, 255, 0.40);
+}
